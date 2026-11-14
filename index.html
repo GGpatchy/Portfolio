@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Sarvesh Daware — a curious mind creating thoughtful digital experiences."
+    />
+    <meta name="theme-color" content="#080808" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <title>Sarvesh Daware — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&display=swap"
+    />
+    <link rel="preload" as="image" href="assets/subtle-smile-cutout.png" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Sarvesh Daware, home">S<span class="wordmark-d">D</span><span class="wordmark-dot">.</span></a>
+      <div class="header-socials">
+        <span class="social-kicker">Find Me Here --></span>
+        <ul class="social-list social-list--header" aria-label="Social platforms">
+          <li><a href="404.html?channel=instagram" aria-label="Instagram (not connected yet)" title="Instagram — not connected yet"><img src="assets/social-icons/instagram.svg" alt="" aria-hidden="true" /></a></li>
+          <li><a href="404.html?channel=x" aria-label="X (not connected yet)" title="X — not connected yet"><img class="social-logo--white" src="assets/social-icons/x.svg" alt="" aria-hidden="true" /></a></li>
+          <li><a href="404.html?channel=linkedin" aria-label="LinkedIn (not connected yet)" title="LinkedIn — not connected yet"><img class="social-logo--white" src="assets/social-icons/linkedin.svg" alt="" aria-hidden="true" /></a></li>
+          <li><a href="404.html?channel=youtube" aria-label="YouTube (not connected yet)" title="YouTube — not connected yet"><img src="assets/social-icons/youtube.svg" alt="" aria-hidden="true" /></a></li>
+          <li><a href="404.html?channel=github" aria-label="GitHub (not connected yet)" title="GitHub — not connected yet"><img class="social-logo--white" src="assets/skill-icons/github.svg" alt="" aria-hidden="true" /></a></li>
+        </ul>
+      </div>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav class="site-menu" id="site-menu" aria-label="Main navigation" aria-hidden="true">
+      <a href="#about"><span>01</span><span class="menu-label">About</span></a>
+      <a href="#work"><span>02</span><span class="menu-label">Work</span></a>
+      <a href="#experience"><span>03</span><span class="menu-label">Experience</span></a>
+      <a href="#skills"><span>04</span><span class="menu-label">Skills</span></a>
+      <a href="#contact"><span>05</span><span class="menu-label">Contact</span></a>
+    </nav>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <p class="hero-index">PORTFOLIO <span></p>
+        <h1 id="hero-title"><span class="hero-name-first">SARVESH</span><br class="mobile-break " /> <span class="hero-role">DAWARE.</span></h1>
+        <div class="portrait-wrap" aria-hidden="true">
+          <img
+            class="portrait"
+            src="assets/subtle-smile-cutout.png"
+            alt=""
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+        <div class="hero-intro">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <p class="hero-copy">
+            Hi, I’m Sarvesh. I’m a <span class="hero-anti-role">Student</span> <span class="hero-role">"Technical Product Engineer".</span>
+          </p>
+          <a class="text-link" href="#about">A bit more about me <span>↘</span></a>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+          <span class="scroll-line"></span>
+          <span>SCROLL TO EXPLORE</span>
+        </a>
+        <p class="hero-location">BASED IN INDIA <span>·</span> OPEN TO WHAT’S NEXT</p>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="section-label"><span>01 / ABOUT</span><span>THE PERSON BEHIND THE PIXELS</span></div>
+        <div class="about-content">
+          <p class="eyebrow">CURIOUS BY NATURE</p>
+          <h2>
+            I believe <span class="hero-role">good</span> digital experiences should feel
+            <span class="serif-italic">clear, considered,</span> and
+            <span class="serif-italic">a little <span class="hero-role">unexpected.</span></span>
+          </h2>
+          <div class="about-bottom">
+            <span class="about-mark" aria-hidden="true">S<span class="wordmark-d">D</span></span>
+            <p>
+              I’m Sarvesh Daware. and I quite dislike mediocrity, keep on learning, and bring light upon stuff people often overlook.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work">
+        <div class="section-label"><span>02 / SELECTED WORK</span><span>A WORK IN PROGRESS</span></div>
+        <div class="work-heading">
+          <h2>Things I’m<br /><span class="serif-italic">working <span class="hero-role-1">towards.</span></span></h2>
+          <p>
+            Every project starts with a question. I’m building this space to share
+            the answers, experiments, and lessons altogether the way.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card--one project-card--water">
+            <div class="project-art project-art--one">
+              <span class="art-orbit"></span>
+              <span class="art-type">Trihub<br />ERP</span>
+              <span class="art-caption">An Educational Enterpise Resourse Planning System</span>
+              <span class="project-water" aria-hidden="true">
+                <span>01 / A NEW CURRENT <b>·</b> DIGITAL SYSTEMS</span>
+              </span>
+              <a class="project-explore" href="https://trihub.tech">Explore! <span>↗</span></a>
+            </div>
+            <div class="project-meta">
+              <span>01 — DIGITAL EXPERIENCES</span>
+              <span>DEVELOPING</span>
+            </div>
+            <h3>Management hassle, made easier.</h3>
+            <p>A system curated for EdTech. The best work is still ahead. 
+              <p>Rights to TRIVERSE SOLUTIONS PVT. LTD.</p></p>
+          </article>
+          <article class="project-card project-card--two project-card--water">
+            <div class="project-art project-art--two">
+              <span class="art-sun"></span>
+              <span class="art-type">Memora, alerts<br /><i>but</i> BETTER.</span>
+              <span class="art-caption">A Personalized System For Dementia Patients</span>
+              <span class="project-water" aria-hidden="true">
+                <span>02 / A GENTLER SIGNAL <b>·</b> HUMAN-CENTERED DESIGN</span>
+              </span>
+              <a class="project-explore" href="#contact">Explore! <span>↗</span></a>
+            </div>
+            <div class="project-meta">
+              <span>02 — INTERFACE & IDEAS</span>
+              <span>IN PROGRESS</span>
+            </div>
+            <h3>Dementia Problem? Solution Here.</h3>
+            <p>Experiments in making the everyday feel a little more considered.</p>
+          </article>
+          <article class="project-card project-card--three project-card--water">
+            <div class="project-art project-art--three">
+              <span class="project-current-orbit" aria-hidden="true"></span>
+              <span class="project-current-type">YMKCOE<br /></span>
+              <span class="project-water" aria-hidden="true">
+                <span>AN OPEN CHANNEL <b>·</b> YOUR NEXT BIG IDEA</span>
+              </span>
+              <a class="project-explore" href="https://ymkcoe.vercel.app">Explore! <span>↗</span></a>
+              <span class="art-caption">An Educational Institute Website</span>
+            </div>
+            <div class="project-meta">
+              <span>03 — EDTECH</span>
+              <span>3D Website</span>
+            </div>
+            <h3>A 3D, interactive educational website</h3>
+            <p>Websites built with trust.</p>
+          </article>
+        </div>
+        <p class="work-note">A growing portfolio <span>—</span> more to come.</p>
+      </section>
+
+      <section class="experience section-pad" id="experience">
+        <div class="section-label"><span>03 / EXPERIENCE</span><span>THREE CHAPTERS. ONE COMPANY.</span></div>
+        <div class="experience-heading">
+          <h2>From research<br />to <span class="serif-italic"><span class="hero-role">technical lead.</span></span></h2>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <p class="experience-date">NOV 2025 – DEC 2025</p>
+            <span class="experience-track" aria-hidden="true"><span>01</span></span>
+            <div class="experience-role">
+              <p class="experience-phase">THE QUESTION</p>
+              <h3>R &amp; D Intern</h3>
+              <p class="experience-company">Triverse Solutions Private Limited</p>
+            </div>
+          </li>
+          <li class="experience-item">
+            <p class="experience-date">JAN 2026 – MAY 2026</p>
+            <span class="experience-track" aria-hidden="true"><span>02</span></span>
+            <div class="experience-role">
+              <p class="experience-phase">THE BUILD</p>
+              <h3>Junior Developer</h3>
+              <p class="experience-company">Triverse Solutions Private Limited</p>
+            </div>
+          </li>
+          <li class="experience-item experience-item--current">
+            <p class="experience-date">JUN 2026 – PRESENT</p>
+            <span class="experience-track" aria-hidden="true"><span>03</span></span>
+            <div class="experience-role">
+              <p class="experience-phase">THE WIDER VIEW</p>
+              <h3>Technical Lead</h3>
+              <p class="experience-company">Triverse Solutions Private Limited</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="skills section-pad" id="skills" aria-labelledby="skills-title">
+        <div class="section-label"><span>04 / SKILLS TO EXPERTISE</span><span>CODE, CRAFT &amp; OPERATIONS</span></div>
+        <div class="skills-heading">
+          <h2 id="skills-title">From code<br />to <span class="serif-italic"><span class="hero-role">context.</span></span></h2>
+          <p>An evolving toolkit across engineering, creative work, and the business behind it.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group" aria-labelledby="skill-programming">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">01</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 3l-4 18" />
+              </svg>
+              <h3 id="skill-programming">Programming</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon" src="assets/skill-icons/html5.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />HTML</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/css.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />CSS</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/javascript.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />JavaScript</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/c.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />C</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/sql.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />SQL</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/python.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Python</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-stack">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">02</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="16" rx="2" />
+                <path d="M3 9h18M7 6.5h.01M10 6.5h.01m1 7-2 2 2 2m4-4 2 2-2 2" />
+              </svg>
+              <h3 id="skill-stack">Frontend &amp; Backend</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon" src="assets/skill-icons/react.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />React.js</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/nextdotjs.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Next.js</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/nodedotjs.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Node.js</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/vite.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Vite</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/tailwindcss.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Tailwind CSS</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-databases">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">03</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="8.5" ry="3" />
+                <path d="M3.5 5v14c0 1.7 3.8 3 8.5 3s8.5-1.3 8.5-3V5M3.5 12c0 1.7 3.8 3 8.5 3s8.5-1.3 8.5-3" />
+              </svg>
+              <h3 id="skill-databases">Databases</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon" src="assets/skill-icons/mysql.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />MySQL</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/postgresql.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />PostgreSQL</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/mongodb.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />MongoDB</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-automation">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">04</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="6" cy="7" r="2" />
+                <circle cx="18" cy="12" r="2" />
+                <circle cx="6" cy="17" r="2" />
+                <path d="m8 8 8 3m-8 5 8-3m1-11v3m-1.5-1.5h3" />
+              </svg>
+              <h3 id="skill-automation">Automation &amp; AI</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon" src="assets/skill-icons/n8n.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />n8n</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/waha.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />WAHA</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/rest-api.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />REST APIs</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/webhooks.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Webhooks</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/ai-integrations.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />AI Integrations</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-devops">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">05</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="6" cy="5" r="2" />
+                <circle cx="6" cy="19" r="2" />
+                <circle cx="18" cy="8" r="2" />
+                <path d="M6 7v10m2-9h4a4 4 0 0 0 4-4V3m-8 13h4a4 4 0 0 0 4-4v-2" />
+              </svg>
+              <h3 id="skill-devops">DevOps &amp; Deployment</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon" src="assets/skill-icons/git.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Git</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/github.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />GitHub</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/vercel.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Vercel</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/cloudflare.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Cloudflare</li>
+              <li><img class="skill-tag-icon" src="assets/skill-icons/ngrok.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />ngrok</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-design">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">06</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 8 4-8 14L4 7l8-4Z" />
+                <path d="m4 7 8 4 8-4M12 11v10" />
+              </svg>
+              <h3 id="skill-design">Design &amp; Creative</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/ui-ux.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />UI/UX</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/3d-web.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />3D Web Experiences</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/branding.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Branding</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/content-design.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Content Design</li>
+            </ul>
+          </article>
+          <article class="skill-group" aria-labelledby="skill-business">
+            <div class="skill-group-heading">
+              <span class="skill-number" aria-hidden="true">07</span>
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 20h18M6 17v-5m6 5V7m6 10V4" />
+                <path d="m4 9 5-4 4 2 6-5" />
+              </svg>
+              <h3 id="skill-business">Business &amp; Operations</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/business-development.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Business Development</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/client-acquisition.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Client Acquisition</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/sales.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Sales</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/project-management.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Project Management</li>
+              <li><img class="skill-tag-icon skill-tag-icon--concept" src="assets/skill-icons/digital-marketing.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Digital Marketing</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="section-label"><span>05 / CONTACT</span><span>YOUR TURN</span></div>
+        <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+        <h2>Let’s make as<br /><span class="serif-italic">it means <span class="hero-role-1">something.</span></span></h2>
+        <button class="contact-link" id="contact-open" type="button" aria-haspopup="dialog" aria-controls="contact-dialog">
+          Start a conversation <span>↗</span>
+        </button>
+        <div class="contact-bottom">
+          <span>GOOD THINGS START WITH A HELLO.</span>
+          <a href="#home">BACK TO TOP ↑</a>
+        </div>
+      </section>
+
+      <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title">
+        <div class="contact-dialog-header">
+          <p class="contact-dialog-index">05 / Send Me Something</p>
+          <button class="contact-dialog-close" type="button" aria-label="Close message form">×</button>
+        </div>
+        <h2 id="contact-dialog-title">Start with<br /><span>a first line.</span></h2>
+        <p class="contact-dialog-intro">A good project starts somewhere. Leave a signal; I’ll pick it up.</p>
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="https://formspree.io/f/moedjkzv"
+          method="post"
+        >
+          <div class="contact-form-fields">
+            <label class="contact-field">
+              <span><b>01</b> YOUR NAME</span>
+              <input name="name" type="text" autocomplete="name" maxlength="80" placeholder="What should I call you?" required />
+            </label>
+            <label class="contact-field">
+              <span><b>02</b> EMAIL ADDRESS</span>
+              <input name="email" type="email" autocomplete="email" maxlength="254" placeholder="Where can I find you?" required />
+            </label>
+            <label class="contact-field con tact-field--message">
+              <span><b>03</b> THE FIRST LINE</span>
+              <textarea name="message" rows="3" maxlength="3000" placeholder="Tell me what you're thinking..." required></textarea>
+            </label>
+          </div>
+          <div class="contact-form-bottom">
+            <p class="contact-form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+            <button class="contact-submit" type="submit">Send a message <span>↗</span></button>
+          </div>
+        </form>
+      </dialog>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#home">S<span class="wordmark-d">D</span><span class="wordmark-dot">.</span></a>
+      <div class="footer-socials">
+        <div class="footer-social-heading"><span>OUTSIDE THIS FRAME</span></div>
+        <ul class="social-list social-list--footer" aria-label="Social platforms">
+          <li><a href="404.html?channel=instagram" aria-label="Instagram (not connected yet)"><span>01</span><img src="assets/social-icons/instagram.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" /><span>INSTAGRAM</span></a></li>
+          <li><a href="404.html?channel=x" aria-label="X (not connected yet)"><span>02</span><img class="social-logo--white" src="assets/social-icons/x.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" /><span>X</span></a></li>
+          <li><a href="404.html?channel=linkedin" aria-label="LinkedIn (not connected yet)"><span>03</span><img class="social-logo--white" src="assets/social-icons/linkedin.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" /><span>LINKEDIN</span></a></li>
+          <li><a href="404.html?channel=youtube" aria-label="YouTube (not connected yet)"><span>04</span><img src="assets/social-icons/youtube.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" /><span>YOUTUBE</span></a></li>
+          <li><a href="404.html?channel=github" aria-label="GitHub (not connected yet)"><span>05</span><img class="social-logo--white" src="assets/skill-icons/github.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" /><span>GITHUB</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <span class="footer-credit">DESIGNED &amp; BUILT WITH INTENTION</span>
+        <span>© <span id="year"></span> SARVESH DAWARE</span>
+      </div>
+    </footer>
+  </body>
+</html>
